@@ -1,0 +1,6 @@
+[toolchain]
+# problem first appears (remember to `make clean` when switching versions)
+channel = "nightly-2022-08-13"
+# last working version (remember to `make clean` when switching versions)
+# channel = "nightly-2022-08-12"
+components = [ "rustfmt", "clippy", "rust-src" ]
